@@ -6,10 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi pagina con tailwind</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/982f3bb3ad.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="text-blue-400" >
-        Hola mundo
+    <div class=" mx-auto">
+        <nav class="bg-green-500 flex justify-between lg:justify-start items-center">
+            <div class="z-20  logo p-5 sm:w-1/2  md:w-1/3 lg:w-1/4">
+                <img  src="./images/logorickandmorty.png" alt="">
+            </div>
+            <div class="links lg:block hidden  w-1/6 md:w-4/6">
+                <ul class="menu flex items-center justify-center gap-5">
+                    <li><a class="link" href="">Home</a></li>
+                    <li><a class="link" href="">Explore</a></li>
+                    <li><a class="link" href="">Characters</a></li>
+                    <li><a class="link" href="">Episodes</a></li>
+                    <li><a class="rounded-full bg-blue-400 px-2 py-3 text-white font-bold hover:bg-blue-500" href="">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="block lg:hidden  w-1/6 lg:w-4/6">
+                <i id="responsive-menu" class=" fas fa-bars link cursor-pointer" ></i>
+
+                <ul class=" md:pt-8 pt-12 responsive-links hidden w-full absolute z-10 left-0 text-center bg-green-500">
+                    <li><a class="link" href="">Home</a></li>
+                    <li><a class="link" href="">Explore</a></li>
+                    <li><a class="link" href="">Characters</a></li>
+                    <li><a class="link" href="">Episodes</a></li>
+                    <li><a class="mb-5 inline-block rounded-full bg-blue-400 px-2 py-3 text-white font-bold hover:bg-blue-500" href="">Contact me</a></li>
+                </ul>
+            </div>
+
+        </nav>
     </div>
+
+    <script src="./js/menu-responsive.js"></script>
+
 </body>
 </html>
