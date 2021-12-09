@@ -1,0 +1,27 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o ./public/css/main.css",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iLuisOlivares/Tailwind-proyect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iLuisOlivares/Tailwind-proyect/issues"
+  },
+  "homepage": "https://github.com/iLuisOlivares/Tailwind-proyect#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
