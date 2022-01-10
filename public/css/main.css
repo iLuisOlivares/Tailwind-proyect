@@ -17765,6 +17765,14 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-wave-pattern {
+  background-image: url(../images/wave-white.png);
+}
+
+.bg-wave-pattern-2 {
+  background-image: url(../images/bg-pattern2.jpg);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -31883,14 +31891,14 @@ video {
 .link{
   display: block;
   padding: 0.75rem;
-  font-weight: 700;
+  font-weight: 600;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity))
 }
 
 .link:hover {
   --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
+  color: rgba(96, 165, 250, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -49016,6 +49024,14 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-wave-pattern {
+    background-image: url(../images/wave-white.png);
+  }
+
+  .sm\:bg-wave-pattern-2 {
+    background-image: url(../images/bg-pattern2.jpg);
   }
 
   .sm\:from-transparent {
@@ -80246,6 +80262,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-wave-pattern {
+    background-image: url(../images/wave-white.png);
+  }
+
+  .md\:bg-wave-pattern-2 {
+    background-image: url(../images/bg-pattern2.jpg);
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -111472,6 +111496,14 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-wave-pattern {
+    background-image: url(../images/wave-white.png);
+  }
+
+  .lg\:bg-wave-pattern-2 {
+    background-image: url(../images/bg-pattern2.jpg);
   }
 
   .lg\:from-transparent {
@@ -142702,6 +142734,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-wave-pattern {
+    background-image: url(../images/wave-white.png);
+  }
+
+  .xl\:bg-wave-pattern-2 {
+    background-image: url(../images/bg-pattern2.jpg);
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -173928,6 +173968,14 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-wave-pattern {
+    background-image: url(../images/wave-white.png);
+  }
+
+  .\32xl\:bg-wave-pattern-2 {
+    background-image: url(../images/bg-pattern2.jpg);
   }
 
   .\32xl\:from-transparent {

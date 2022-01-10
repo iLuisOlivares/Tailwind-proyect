@@ -5,7 +5,13 @@ module.exports = {
     ],
     darkmode: false,
     theme: {
-        extends: {},
+        extend: {
+            backgroundImage: theme => ({
+                'wave-pattern': 'url(../images/wave-white.png)',
+                'wave-pattern-2': 'url(../images/bg-pattern2.jpg)'
+            })
+
+        },
     },
     variants:{
         extends: {},
